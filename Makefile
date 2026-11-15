@@ -1,2 +1,2 @@
 make : main.c
-	gcc main.c -o  main -lm 
+	gcc main.c src/MConst.c -o  main -lm 
